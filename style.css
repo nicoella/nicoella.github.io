@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+}
+
+html {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+}
+
+p {
+    text-align: left;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+span {
+    color: #3b3a3a;
+}
+
+/* navbar */
+.nav {
+    position: relative;
+    min-height: 100px;
+    padding-top: 50px;
+}
+
+.nav a {
+    color: #3b3a3a;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 30px 5px 30px;
+    transition: color 0.3s ease;
+}
+
+/* title */
+.title {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+/* about me */
+.about {
+    width: 450px;
+    display: block;
+    position: relative;
+    padding-left: calc(50vw - 225px);
+    padding-bottom: 225px;
+    padding-top: 100px;
+}
+
+.tech {
+    width:32%;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.about i {
+    color: #3b3a3a;
+    display: inline-block;
+    font-size: 4px;
+    padding-right: 10px;
+}
+
+.about li {
+    color: #3b3a3a;
+    line-height: 21px;
+    font-size: 15px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 12px;
+}
+
+.about li::before {
+    content: '-';
+    position: absolute;
+    left: -0.8em;
+    top: -2px;          
+    font-size: 1.1em; 
+    padding-left: 13px;
+}
+
+.socials i {
+    font-size: 30px;
+}
+
+/* projects */
+.projects {
+    width: 500px;
+    display: block;
+    position: relative;
+    padding-left: calc(50vw - 250px);
+    padding-bottom: 250px;
+    padding-top: 100px;
+}
+
+.projects .extra {
+    padding-top: 50px;
+}
+
+.projects .extra p {
+    text-align: center;
+}
+
+.project {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 15px;
+    transition: background-color 0.4s;
+}
+
+.project:hover {
+    background-color: #fafafa;
+}
+
+.project p {
+    color: #3b3a3a;
+}
+
+.project .left {
+    width: 90%;
+    display: inline-block;
+}
+
+.project .right {
+    width: 9%;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.project i {
+    color: #3b3a3a; 
+    font-size: 25px; 
+    display:inline-block;
+    float: right;
+}
