@@ -1,25 +1,41 @@
+@font-face {
+    font-family:font; src: url('font.woff2') format('truetype');
+}
+
 * {
     margin: 0;
 }
 
 html {
     width: 100%;
+    background-color: #010006;
+    font-family: font;
+    line-height: 1.5;
+    font-weight: 300;
 }
 
 h1 {
     text-align: center;
-    font-size: 55px;
+    font-size: 35px;
 }
 
 p {
     text-align: left;
-    font-size: 16px;
-    text-align: justify;
-    text-justify: inter-character;
+    font-size: 14px;
+    color: #a3a3a3;
+}
+
+h2 {
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #fafafa;
+    font-weight: 300;
+    padding-top: 50px;
+    width: 100%;
 }
 
 span {
-    color: #3b3a3a;
+    color: #a3a3a3;
 }
 
 /* navbar */
@@ -30,8 +46,8 @@ span {
 }
 
 .nav a {
-    color: #3b3a3a;
-    font-size: 16px;
+    color: #a3a3a3;
+    font-size: 13px;
     text-decoration: none;
     padding: 20px 30px 5px 30px;
     transition: color 0.3s ease;
@@ -46,12 +62,16 @@ span {
 
 /* about me */
 .about {
-    width: 450px;
+    width: 500px;
     display: block;
     position: relative;
-    padding-left: calc(50vw - 225px);
-    padding-bottom: 225px;
-    padding-top: 100px;
+    padding-left: calc(50vw - 250px);
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+
+.tech-container {
+    display: block;
 }
 
 .tech {
@@ -62,19 +82,19 @@ span {
 }
 
 .about i {
-    color: #3b3a3a;
+    color: #a3a3a3;
     display: inline-block;
     font-size: 4px;
     padding-right: 10px;
 }
 
 .about li {
-    color: #3b3a3a;
+    color: #a3a3a3;
     line-height: 21px;
     font-size: 15px;
     list-style-type: none;
     position: relative;
-    padding-left: 12px;
+    padding-left: 16px;
 }
 
 .about li::before {
@@ -83,7 +103,7 @@ span {
     left: -0.8em;
     top: -2px;          
     font-size: 1.1em; 
-    padding-left: 13px;
+    padding-left: 16px;
 }
 
 .socials i {
@@ -96,7 +116,7 @@ span {
     display: block;
     position: relative;
     padding-left: calc(50vw - 250px);
-    padding-bottom: 250px;
+    padding-bottom: 150px;
     padding-top: 100px;
 }
 
@@ -117,11 +137,7 @@ span {
 }
 
 .project:hover {
-    background-color: #fafafa;
-}
-
-.project p {
-    color: #3b3a3a;
+    background-color: #171717;
 }
 
 .project .left {
@@ -133,12 +149,44 @@ span {
     width: 9%;
     display: inline-block;
     vertical-align: top;
-    float: right;
 }
 
 .project i {
-    color: #3b3a3a; 
+    color: #fafafa; 
     font-size: 25px; 
-    display:inline-block;
     float: right;
+}
+
+.project h2 {
+    padding-top: 0px;
+}
+
+/* timeline */
+.timeline {
+    display: block;
+    min-height: 20px;
+}
+
+.timeline .item {
+    width: 100%;
+    display: block;
+    min-height: 40px;
+    padding-bottom: 25px;
+}
+
+.timeline .item .time {
+    width: 25%;
+    color: #818180;
+    display: inline-block;
+}
+
+.timeline .item .description {
+    width: 73%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.timeline h2 {
+    padding-top: 0;
+    padding-bottom: 5px;
 }
