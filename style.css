@@ -295,8 +295,8 @@ span {
 
     /* navbar */
     .nav {
-        min-height: 80px;
-        padding-top: 40px;
+        min-height: 180px;
+        padding-top: 80px;
         padding-right: 30px;
         padding-left: calc(100vw - 60px);
     }
@@ -316,8 +316,13 @@ span {
         z-index: 999;
     }
 
+    .nav .img {
+        width: 120px;
+        height: 120px;
+    }
+
     .nav .i {
-        font-size: 30px;
+        font-size: 90px;
     }
 
     .nav .visible {
