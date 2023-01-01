@@ -294,8 +294,8 @@ span {
 
     /* navbar */
     .nav {
-        min-height: 180px;
-        padding-top: 80px;
+        min-height: 130px;
+        padding-top: 70px;
         padding-right: 30px;
         padding-left: calc(100vw - 60px);
     }
@@ -320,8 +320,8 @@ span {
         height: 120px;
     }
 
-    .nav .i {
-        font-size: 90px !important;
+    .nav i {
+        font-size: 90px;
     }
 
     .nav .visible {
@@ -349,6 +349,6 @@ span {
 
     /* title */
     .title h1 {
-        padding-top: 500px;
+        padding-top: 350px;
     }
 }
