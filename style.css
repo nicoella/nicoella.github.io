@@ -247,7 +247,7 @@ span {
 }
 
 /* mobile support */
-@media (pointer:none), (pointer:coarse) {
+@media (pointer:none), (pointer:coarse) and (max-width: 1100px) {
     .about {
 	width: calc(100vw - 60px);
         padding-left: 30px;
