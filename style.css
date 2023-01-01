@@ -310,7 +310,7 @@ span {
         height: 120px;
         float: left;
         position: fixed;
-        left: 10px;
+        left: 20px;
         top: 14px;
         z-index: 999;
     }
@@ -323,13 +323,12 @@ span {
     .nav i {
         font-size: 60px;
         position: fixed;
-        right: 25px;
+        right: 20px;
         top: 20px;
     }
 
     .nav .visible {
-        width: calc(100vw - 50px) ;
-        left: 25px;
+        width: calc(100vw);
     }
 
     /* timeline */
