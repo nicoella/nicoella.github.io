@@ -298,8 +298,8 @@ span {
     }
     
     .nav a {
-        font-size: 18px;
-        padding: 20px 25px 5px 25px;
+        font-size: 23px;
+        padding: 20px 35px 5px 35px;
     }
     
     .nav .icon {
@@ -307,13 +307,13 @@ span {
         height: 60px;
         float: left;
         position: fixed;
-        left: calc(50vw - 263px);
+        left: 30px;
         top: 14px;
         z-index: 999;
     }
 
     .nav .visible {
-        width: calc(vw - 50px);
+        width: calc(100vw - 50px) ;
         left: 25px;
     }
 
@@ -328,5 +328,10 @@ span {
         width: 78%;
         display: inline-block;
         vertical-align: top;
+    }
+
+    /* projects */
+    .project {
+        width: calc(100vw - 100px);
     }
 }
