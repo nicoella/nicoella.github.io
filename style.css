@@ -291,21 +291,21 @@ span {
     }
 
     p {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .about i {
-        font-size: 10px;
+        font-size: 11px;
     }
     
     .about li {
         color: #a3a3a3;
         line-height: 21px;
-        font-size: 26px;
+        font-size: 30px;
         list-style-type: none;
         position: relative;
         padding-left: 16px;
@@ -316,7 +316,7 @@ span {
     }
 
     .tech p {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     /* navbar */
