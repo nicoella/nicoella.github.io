@@ -289,6 +289,10 @@ span {
         font-size: 90px;
     }
 
+    .tech p {
+        font-size: 35px;
+    }
+
     /* navbar */
     .nav {
         min-height: 80px;
@@ -303,13 +307,17 @@ span {
     }
     
     .nav .icon {
-        width: 60px;
-        height: 60px;
+        width: 120px;
+        height: 120px;
         float: left;
         position: fixed;
         left: 30px;
         top: 14px;
         z-index: 999;
+    }
+
+    .nav .i {
+        font-size: 30px;
     }
 
     .nav .visible {
