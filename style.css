@@ -261,32 +261,32 @@ span {
     /* font size */
 
     h1 {
-        font-size: 55px;
+        font-size: 70px;
     }
 
     p {
-        font-size: 19px;
+        font-size: 26px;
     }
 
     h2 {
-        font-size: 19px;
+        font-size: 26px;
     }
 
     .about i {
-        font-size: 8px;
+        font-size: 20px;
     }
     
     .about li {
         color: #a3a3a3;
         line-height: 21px;
-        font-size: 18px;
+        font-size: 26px;
         list-style-type: none;
         position: relative;
         padding-left: 16px;
     }
     
     .socials i {
-        font-size: 50px;
+        font-size: 90px;
     }
 
     /* navbar */
@@ -298,7 +298,7 @@ span {
     }
     
     .nav a {
-        font-size: 23px;
+        font-size: 50px;
         padding: 20px 35px 5px 35px;
     }
     
