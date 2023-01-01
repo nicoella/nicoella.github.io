@@ -310,7 +310,7 @@ span {
         height: 120px;
         float: left;
         position: fixed;
-        left: 20px;
+        left: 10px;
         top: 14px;
         z-index: 999;
     }
@@ -323,8 +323,8 @@ span {
     .nav i {
         font-size: 60px;
         position: fixed;
-        right: 20px;
-        top: 14px;
+        right: 25px;
+        top: 20px;
     }
 
     .nav .visible {
@@ -352,6 +352,7 @@ span {
 
     /* title */
     .title h1 {
-        padding-top: 240px;
+        padding-top: 180px;
+        padding-bottom: 100px;
     }
 }
