@@ -298,6 +298,8 @@ span {
         padding-top: 70px;
         padding-right: 30px;
         padding-left: calc(100vw - 60px);
+        left: 0;
+        left: 0;
     }
     
     .nav a {
@@ -324,11 +326,13 @@ span {
         font-size: 60px;
         position: fixed;
         right: 20px;
-        top: 20px;
+        top: 32px;
     }
 
     .nav .visible {
         width: calc(100vw);
+        left: 0;
+        top: 0;
     }
 
     /* timeline */
