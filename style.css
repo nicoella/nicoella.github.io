@@ -254,3 +254,16 @@ span {
         display: block;
     }
 }
+
+/* mobile */
+@media (pointer:none), (pointer:coarse) {
+    .about {
+	width: calc(100vw - 60px);
+        padding-left: 30px;
+    }
+    
+    .projects {
+	width: calc(100vw - 60px);
+        padding-left: 30px;
+    }
+}
