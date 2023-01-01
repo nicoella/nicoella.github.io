@@ -294,7 +294,7 @@ span {
 
     /* navbar */
     .nav {
-        min-height: 130px;
+        min-height: 110px;
         padding-top: 70px;
         padding-right: 30px;
         padding-left: calc(100vw - 60px);
