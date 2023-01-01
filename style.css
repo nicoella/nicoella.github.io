@@ -385,4 +385,32 @@ span {
         padding-top: 180px;
         padding-bottom: 100px;
     }
+
+    /* about images */
+    .about .left {
+        display: inline-block;
+        width: calc(100% - 360px);
+    }
+    
+    .about .right {
+        float: right;
+        width: 350px;
+        vertical-align: top;
+    }
+    
+    .image-cropper {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        vertical-align: top;
+    }
+      
+    .about img {
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
+    }
 }
