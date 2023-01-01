@@ -4,20 +4,29 @@
     <link rel="stylesheet" href="style.css">
 	<title>Nicole Han.</title>
 	<script src="https://kit.fontawesome.com/db1968bbce.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5b0126e0f1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
     <div class="nav">
-    	<div style="text-align: center">
-        	<a href="#">About</a>
-        	<a href="projects.html">Projects</a>
-        	<a href="resume.pdf" target="_blank">Resume</a>
+        <div class="icon">
+            <a href="#" style="padding:0"><img src="bird.png"></a>
+        </div>
+        <div class="open" id="nav">
+            <a href="#" class="active">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.pdf" target="_blank">Resume</a>
+        </div>
+        
+        <div class="closed">
+            <i class="fa-solid fa-bars" style="color: #cbcbcb; z-index: 998; float: right" onclick="change()"></i>
         </div>
     </div>
 
     <div class="title">
     	<h1>
-    		<span style="font-weight:300; color: #fafafa">
+    		<span style="font-weight:300; color: #fafafa; margin-top: 200px">
     		Nicole Han.
     		</span>
     	</h1>
@@ -26,7 +35,7 @@
     <div class="about">
         <h2>About Me</h2>
     	<p>
-    		Hello! I'm Nicole Han, a Computer Science student at the University of Waterloo. I like to code in my free time - you can check out some of my projects <a href="https://github.com/nicoella?tab=repositories" style="color: #939393" target="_blank">here</a>.
+    		Hello! I'm Nicole Han, a Computer Science student at the University of Waterloo. I like to code in my free time - you can check out some of my projects <a href="projects.html" style="color: #939393">here</a>.
     		<br><br>
     		I also enjoy art, reading, crochet, listening to music, and playing video games.
     		<br><br>
@@ -46,7 +55,7 @@
 
         <h2>Experience</h2>
         <div class="timeline">
-            <div class="item" style="padding-bottom: 0px">
+            <div class="item">
                 <div class="time">
                     <p style="color: #616161;">2022</p>
                 </div>
@@ -63,6 +72,22 @@
                         MariaDB
                         <span style="font-size: 9px; padding:0px 5px 0px 5px">&#x2022;</span>
                         TypeScript
+                    </p>
+                </div>
+            </div>
+            <div class="item" style="padding-bottom: 0px">
+                <div class="time">
+                    <p style="color: #616161;">2019 - 2022</p>
+                </div>
+                <div class="description">
+                    <h2>Vice President - Mackenzie Computer Programming Team</h2>
+                    <p>Created competitive programming problems for contests and tutored students in competitive and curriculum programming. Managed a team of executives to deliver weekly lessons and monthly programming competitions.</p>
+                    <p style="color: #616161; padding-top: 5px">
+                        Java 
+                        <span style="font-size: 9px; padding:0px 5px 0px 5px">&#x2022;</span> 
+                        C++
+                        <span style="font-size: 9px; padding:0px 5px 0px 5px">&#x2022;</span>
+                        Processing
                     </p>
                 </div>
             </div>

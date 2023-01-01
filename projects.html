@@ -4,14 +4,23 @@
     <link rel="stylesheet" href="style.css">
 	<title>Nicole Han.</title>
 	<script src="https://kit.fontawesome.com/db1968bbce.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/5b0126e0f1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-	<div class="nav">
-    	<div style="text-align: center">
-        	<a href="index.html">About</a>
-        	<a href="#">Projects</a>
-        	<a href="resume.pdf" target="_blank">Resume</a>
+    <div class="nav">
+        <div class="icon">
+			<a href="index.html" style="padding:0"><img src="bird.png"></a>
+        </div>
+        <div class="open" id="nav">
+            <a href="index.html">About</a>
+            <a href="#" class="active">Projects</a>
+            <a href="resume.pdf" target="_blank">Resume</a>
+        </div>
+        
+        <div class="closed">
+            <i class="fa-solid fa-bars" style="color: #cbcbcb; z-index: 998" onclick="change()"></i>
         </div>
     </div>
 

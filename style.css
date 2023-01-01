@@ -40,24 +40,60 @@ span {
 
 /* navbar */
 .nav {
-    position: relative;
-    min-height: 100px;
-    padding-top: 50px;
+    position: fixed;
+    min-height: 60px;
+    padding-top: 35px;
+    padding-right: calc(50vw - 250px);
+    padding-left: 500px;
+    right: 0;
+    top: 0;
+    background-color: #010006;
+    z-index: 2;
+    
 }
 
 .nav a {
-    color: #a3a3a3;
+    color: #cbcbcb;
     font-size: 13px;
     text-decoration: none;
-    padding: 20px 30px 5px 30px;
+    padding: 20px 20px 5px 20px;
     transition: color 0.3s ease;
+}
+
+.nav .active {
+    color: #e7e7e7;
+}
+
+.nav a:hover {
+    color: #e7e7e7;
+}
+
+.nav .icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: fixed;
+    left: calc(50vw - 260px);
+    top: 18px;
+    z-index: 999;
+}
+
+.nav img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.nav .closed {
+    display: none;
 }
 
 /* title */
 .title {
     display: block;
-    position: relative;
     text-align: center;
+    margin-top: 150px;
 }
 
 /* about me */
@@ -112,10 +148,10 @@ span {
 
 /* projects */
 .projects {
-    width: 530px;
+    width: 500px;
     display: block;
     position: relative;
-    padding-left: calc(50vw - 265px);
+    padding-left: calc(50vw - 250px);
     padding-bottom: 150px;
     padding-top: 55px;
 }
@@ -129,7 +165,7 @@ span {
 }
 
 .project {
-    width: 100%;
+    width: 465px;
     display: block;
     border-radius: 5px;
     padding: 15px;
@@ -189,4 +225,32 @@ span {
 .timeline h2 {
     padding-top: 0;
     padding-bottom: 5px;
+}
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+    .nav .closed {
+        display: inline-block;
+    }
+
+    .nav .open {
+        display: none;
+    }
+
+    .nav .visible {
+        display: inline-block;
+        height: calc(100vh);
+        width: 700px;
+        position: fixed;
+        left: calc(50vw - 350px);
+        top: 0;
+        background-color: #010006;
+        z-index: -10;
+        text-align: center;
+        padding-top: calc(30vh);
+    }
+
+    .nav a {
+        display: block;
+    }
 }
