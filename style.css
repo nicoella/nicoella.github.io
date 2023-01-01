@@ -352,8 +352,8 @@ span {
     .nav i {
         font-size: 60px;
         position: fixed;
-        right: 20px;
-        top: 32px;
+        right: 30px;
+        top: 52px;
     }
 
     .nav .visible {
