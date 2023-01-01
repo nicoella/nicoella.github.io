@@ -259,7 +259,6 @@ span {
     }
 
     /* font size */
-
     h1 {
         font-size: 70px;
     }
@@ -273,7 +272,7 @@ span {
     }
 
     .about i {
-        font-size: 15px;
+        font-size: 10px;
     }
     
     .about li {
@@ -290,7 +289,7 @@ span {
     }
 
     .tech p {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     /* navbar */
@@ -316,13 +315,13 @@ span {
         z-index: 999;
     }
 
-    .nav .img {
+    .nav img {
         width: 120px;
         height: 120px;
     }
 
     .nav .i {
-        font-size: 90px;
+        font-size: 90px !important;
     }
 
     .nav .visible {
@@ -346,5 +345,10 @@ span {
     /* projects */
     .project {
         width: calc(100vw - 100px);
+    }
+
+    /* title */
+    .title h1 {
+        padding-top: 500px;
     }
 }
