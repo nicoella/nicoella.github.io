@@ -273,7 +273,7 @@ span {
     }
 
     .about i {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .about li {
@@ -286,11 +286,11 @@ span {
     }
     
     .socials i {
-        font-size: 90px;
+        font-size: 70px;
     }
 
     .tech p {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     /* navbar */
