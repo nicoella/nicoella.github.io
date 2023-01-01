@@ -255,7 +255,7 @@ span {
     }
 }
 
-/* mobile */
+/* mobile support */
 @media (pointer:none), (pointer:coarse) {
     .about {
 	width: calc(100vw - 60px);
@@ -265,5 +265,60 @@ span {
     .projects {
 	width: calc(100vw - 60px);
         padding-left: 30px;
+    }
+
+    /* font size */
+
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    /* navbar */
+    .nav {
+        min-height: 80px;
+        padding-top: 40px;
+        padding-right: 30px;
+        padding-left: calc(100vw - 60px);
+    }
+    
+    .nav a {
+        font-size: 16px;
+        padding: 20px 25px 5px 25px;
+    }
+    
+    .nav .icon {
+        width: 60px;
+        height: 60px;
+        float: left;
+        position: fixed;
+        left: calc(50vw - 263px);
+        top: 14px;
+        z-index: 999;
+    }
+
+    .nav .visible {
+        width: calc(vw - 50px);
+        left: 25px;
+    }
+
+    /* timeline */
+    .timeline .item .time {
+        width: 20%;
+        color: #818180;
+        display: inline-block;
+    }
+    
+    .timeline .item .description {
+        width: 78%;
+        display: inline-block;
+        vertical-align: top;
     }
 }
