@@ -380,6 +380,10 @@ span {
         width: calc(100vw - 100px);
     }
 
+    .project i {
+        font-size: calc(9vw - 9px);
+    }
+
     /* title */
     .title h1 {
         padding-top: 180px;
