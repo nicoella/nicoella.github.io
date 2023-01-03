@@ -381,7 +381,7 @@ span {
     }
 
     .project i {
-        font-size: calc(9vw - 9px);
+        font-size: calc(6vw);
     }
 
     /* title */
