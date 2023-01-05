@@ -384,6 +384,10 @@ span {
         width: 85%;
     }
 
+    .project .right {
+        width: 14%;
+    }
+
     .project i {
         font-size: calc(6vw);
     }
