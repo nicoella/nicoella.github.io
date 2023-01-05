@@ -386,10 +386,12 @@ span {
 
     .project .right {
         width: 14%;
+	float: right;
     }
 
     .project i {
         font-size: calc(6vw);
+	float: right;
     }
 
     /* title */
