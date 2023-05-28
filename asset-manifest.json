@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nicoella/portfolio-new/static/css/main.073c9b0a.css",
+    "main.js": "/nicoella/portfolio-new/static/js/main.e3195f2d.js",
+    "static/js/787.d1d4a2c2.chunk.js": "/nicoella/portfolio-new/static/js/787.d1d4a2c2.chunk.js",
+    "static/media/logo.svg": "/nicoella/portfolio-new/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nicoella/portfolio-new/index.html",
+    "main.073c9b0a.css.map": "/nicoella/portfolio-new/static/css/main.073c9b0a.css.map",
+    "main.e3195f2d.js.map": "/nicoella/portfolio-new/static/js/main.e3195f2d.js.map",
+    "787.d1d4a2c2.chunk.js.map": "/nicoella/portfolio-new/static/js/787.d1d4a2c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e3195f2d.js"
+  ]
+}
