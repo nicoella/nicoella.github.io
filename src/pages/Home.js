@@ -44,7 +44,53 @@ const Home = () => {
         </a>
       </div>
       <h2>Experience</h2>
-      <TimelineItem />
+      <TimelineItem
+        year="2023"
+        title="Software Developer - Miovision"
+        extra="Angular, SCSS, Cypress, TypeScript, RxJS, NestJS"
+      />
+      <TimelineItem
+        year="2022"
+        title="Innovation Developer - Royal Bank of Canada"
+        description="Created a rewards site for RBC developers which rewards them for contributing to internal GitHub bugs and issues. Worked in weekly Agile sprints."
+        extra="Angular, SCSS, MariaDB, TypeScript"
+      />
+      <TimelineItem
+        year="2019 - 2022"
+        title="Vice President - Mackenzie Computer Programming Team"
+        description="Created competitive programming problems for contests and tutored students in competitive and curriculum programming. Managed a team of executives to deliver weekly lessons and monthly programming competitions."
+        extra="Java, C++, Processing"
+      />
+      <h2>Notable Achievements</h2>
+      <TimelineItem
+        year="2022"
+        title="René Descartes National Scholarship"
+        description="One of approximately 10 recipients chosen based on achievement in academic standing and results in mathematics and computer contests, valued at $20K."
+      />
+      <TimelineItem
+        year="2021"
+        title="European Girls' Olympiad in Informatics - Bronze Medalist"
+        description="One of four participants selected in Canada. Placed 73rd Internationally, recieved a Bronze Medal."
+      />
+      <TimelineItem
+        year="2021"
+        title="CEMC Canadian Computing Competition Senior - Honour Roll"
+        description="Placed within the top 5% of competitors."
+      />
+      <TimelineItem
+        year="2021"
+        title="American Invitational Mathematics Examination"
+        description="Qualified to write AIME based on high performances in the American Mathematics Competition."
+      />
+      <TimelineItem
+        year="2021"
+        title="Educational Computing Organization of Ontario (ECOO) Computer Science Competition"
+        description="Placed 21st in Ontario out of 473 competitors."
+      />
+      <p>
+        A full list of my contests and achievements can be found{" "}
+        <Link to="/achievements#"> here</Link>.
+      </p>
     </>
   );
 };

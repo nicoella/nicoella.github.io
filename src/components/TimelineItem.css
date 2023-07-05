@@ -1,0 +1,30 @@
+.item {
+  width: 100%;
+  display: block;
+  padding-bottom: 0px;
+}
+
+.item .time p {
+  color: #616161;
+}
+
+.item h3 {
+  padding: 0px;
+}
+
+.item .time {
+  width: 20%;
+  color: #818180;
+  display: inline-block;
+}
+
+.item .description {
+  width: 78%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.item .extra {
+  color: #616161;
+  padding-top: 5px;
+}
