@@ -1,0 +1,24 @@
+nav {
+  padding-top: 20px;
+}
+
+a {
+  font-family: "Spectral";
+  font-weight: 200;
+  color: #cbcbcb;
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.left {
+  display: inline-block;
+}
+
+.right {
+  float: right;
+}
+
+.right a {
+  padding-left: 15px;
+}
