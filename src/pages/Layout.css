@@ -4,6 +4,11 @@ nav {
   margin-right: 30vw;
 }
 
+.wider {
+  margin-left: calc(50% - 300px);
+  margin-right: calc(50% - 300px);
+}
+
 a {
   font-family: "Spectral";
   font-weight: 200;
@@ -29,5 +34,10 @@ a {
   nav {
     margin-left: 12vw;
     margin-right: 12vw;
+  }
+
+  .wider {
+    margin-left: 7vw;
+    margin-right: 7vw;
   }
 }

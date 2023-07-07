@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ProjectsFull.css";
 
 import TimelineItem from "../components/TimelineItem";
 
 const ProjectsFull = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div class="projects-full">
       <h1>Project Archive</h1>

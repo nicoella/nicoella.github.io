@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Projects.css";
 
 import Project from "../components/Project";
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div class="projects">
       <h1>Project Showcase</h1>
