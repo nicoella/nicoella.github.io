@@ -63,3 +63,8 @@ p {
   font-family: "Spectral";
   color: #adadad;
 }
+
+@media (max-width: 500px) {
+  .body {
+  }
+}

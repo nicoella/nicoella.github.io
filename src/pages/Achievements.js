@@ -12,8 +12,8 @@ const Achievements = () => {
     <div class="achievements">
       <h1>Achievement History</h1>
       <p>
-        This list includes my relatively notable achievements and contest
-        results.
+        This chronological list includes my relatively notable achievements and
+        contest results.
       </p>
       <TimelineItem
         year="2022"
