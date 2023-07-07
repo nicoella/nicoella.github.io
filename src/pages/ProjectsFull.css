@@ -1,0 +1,20 @@
+.projects-full {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.projects-full h1 {
+  padding-top: 70px;
+}
+
+.projects-full .intro {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .projects-full {
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
+}

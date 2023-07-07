@@ -19,40 +19,45 @@ const Home = () => {
   return (
     <div class="home">
       <Image src={sky} class="center" width={400} height={273} />
-      <h1>Hi, I'm Nicole.</h1>
-      <p>Welcome to this little window into my life.</p>
-      <p>
-        I'm currently a Computer Science student at the University of Waterloo.
-        Sometimes I code in my free time - you can check out some of my projects
-        <Link to="/projects"> here</Link>.
-      </p>
-      <p>
-        I also enjoy drawing, reading, crocheting, listening to music, watching
-        movies and tv shows, and playing video games.
-      </p>
-      <div class="socials">
-        <a
-          href="https://www.linkedin.com/in/nicole-han-20ab31202/"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={["fab", "linkedin"]} />
-        </a>
-        <a href="https://github.com/nicoella" target="_blank">
-          <FontAwesomeIcon icon={["fab", "github"]} />
-        </a>
-        <a href="mailto:nicolehan04@gmail.com" target="_blank">
-          <FontAwesomeIcon icon={["fas", "envelope"]} />
-        </a>
+      <div class="about">
+        <h1>Hi, I'm Nicole.</h1>
+        <p>Welcome to this little window into my life.</p>
+        <p>
+          I'm currently a Computer Science student at the University of
+          Waterloo. Sometimes I code in my free time - you can check out some of
+          my projects
+          <Link to="/projects"> here</Link>.
+        </p>
+        <p>
+          I also enjoy drawing, reading, crocheting, listening to music,
+          watching movies and tv shows, and playing video games.
+        </p>
+        <div class="socials">
+          <a
+            href="https://www.linkedin.com/in/nicole-han-20ab31202/"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={["fab", "linkedin"]} />
+          </a>
+          <a href="https://github.com/nicoella" target="_blank">
+            <FontAwesomeIcon icon={["fab", "github"]} />
+          </a>
+          <a href="mailto:nicolehan04@gmail.com" target="_blank">
+            <FontAwesomeIcon icon={["fas", "envelope"]} />
+          </a>
+        </div>
       </div>
       <h2>Experience</h2>
       <TimelineItem
         year="2023"
         title="Software Developer - Miovision"
+        link="https://miovision.com/"
         extra="Angular, SCSS, Cypress, TypeScript, RxJS, NestJS"
       />
       <TimelineItem
         year="2022"
         title="Innovation Developer - Royal Bank of Canada"
+        link="https://www.rbc.com/"
         description="Created a rewards site for RBC developers which rewards them for contributing to internal GitHub bugs and issues. Worked in weekly Agile sprints."
         extra="Angular, SCSS, MariaDB, TypeScript"
       />
@@ -75,11 +80,13 @@ const Home = () => {
       <TimelineItem
         year="2021"
         title="European Girls' Olympiad in Informatics - Bronze Medalist"
+        link="https://stats.egoi.org/editions/2021/delegations/CAN/"
         description="One of four participants selected in Canada. Placed 73rd Internationally, recieved a Bronze Medal."
       />
       <TimelineItem
         year="2021"
         title="CEMC Canadian Computing Competition Senior - Honour Roll"
+        link="https://www.cemc.uwaterloo.ca/contests/past_contests/2021/2021CCCResults.pdf"
         description="Placed within the top 5% of competitors."
       />
       <TimelineItem

@@ -3,6 +3,10 @@
   margin-right: 30vw;
 }
 
+.home h2 {
+  padding-bottom: 5px;
+}
+
 .center {
   text-align: center;
   display: block;
@@ -12,9 +16,21 @@
   width: 100%;
 }
 
+.about p {
+  margin-bottom: 5px;
+}
+
+.socials {
+  padding-top: 10px;
+}
+
 .socials a {
   font-size: 20px;
   padding-right: 5px;
+}
+
+.home .redirect {
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 700px) {

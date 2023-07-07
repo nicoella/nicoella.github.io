@@ -7,6 +7,9 @@ const Projects = () => {
   return (
     <div class="projects">
       <h1>Project Showcase</h1>
+      <a href="/projectsFull">
+        <p class="intro">// &nbsp;Full projects archive</p>
+      </a>
       <Project
         image={require("../assets/images/wizardcats.jpg")}
         title="Wizard Cats"
@@ -28,6 +31,7 @@ const Projects = () => {
         title="OnTrack"
         year="08/2021"
         github="https://github.com/nicoella/OnTrack"
+        link="http://ontrackdemo.000webhostapp.com/"
         description="A website to connect patients with their dietician and help make a healthy eating plan and keep track of goals."
         tech="HTML, CSS, PHP, MySQL"
       />
@@ -36,7 +40,7 @@ const Projects = () => {
         title="Covid Birthday Bash"
         year="06/2020"
         github="https://github.com/nicoella/Covid-Birthday-Bash"
-        description="An interactive video game about staying safe during the pandemic at a birthday party. All art is custom drawn.        "
+        description="An interactive video game about staying safe during the pandemic at a birthday party. All art is custom drawn."
         tech="Java, Aseprite"
       />
       <Project
@@ -44,10 +48,9 @@ const Projects = () => {
         title="Pokémon Discord Bot"
         year="05/2020"
         github="https://github.com/nicoella/Pokemon-Bot"
-        description="A Discord bot to detect any Pokemon that spawns from the Pokémon Discord Bot, Pokécord. Also has a Pokémon name guessing game."
+        description="A Discord bot to detect any Pokémon that spawns from the Pokémon Discord Bot, Pokécord. Also has a Pokémon name guessing game."
         tech="JavaScript, Node.js"
       />
-      <h2>Other Projects</h2>
     </div>
   );
 };

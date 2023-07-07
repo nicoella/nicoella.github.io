@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Layout from "./pages/Layout";
 import Achievements from "./pages/Achievements";
+import ProjectsFull from "./pages/ProjectsFull";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="achievements" element={<Achievements />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="projectsFull" element={<ProjectsFull />} />
         </Route>
       </Routes>
     </BrowserRouter>

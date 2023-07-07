@@ -2,6 +2,12 @@
   padding-top: 70px;
 }
 
+.projects .intro {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
 .projects {
   margin-left: calc(50% - 300px);
   margin-right: calc(50% - 300px);

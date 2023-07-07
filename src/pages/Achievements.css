@@ -3,6 +3,11 @@
   margin-right: 30%;
 }
 
+.achievements .intro {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
 .achievements h1 {
   padding-top: 70px;
 }
