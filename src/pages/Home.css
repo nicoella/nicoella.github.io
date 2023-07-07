@@ -1,3 +1,8 @@
+.home {
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
 .center {
   text-align: center;
   display: block;
@@ -10,4 +15,11 @@
 .socials a {
   font-size: 20px;
   padding-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .home {
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
 }

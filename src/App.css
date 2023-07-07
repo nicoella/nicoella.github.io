@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  margin-left: 30vw;
-  margin-right: 30vw;
   padding: 0;
   padding-bottom: 100px;
   background-color: #04010a;
@@ -64,9 +62,6 @@ p {
   color: #adadad;
 }
 
-@media screen and (max-width: 700px) {
-  body {
-    margin-left: 12vw;
-    margin-right: 12vw;
-  }
+.redirect {
+  font-style: italic;
 }

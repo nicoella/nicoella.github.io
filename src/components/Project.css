@@ -1,0 +1,57 @@
+.project {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 275ms ease;
+}
+
+.project:hover {
+  background-color: #171717;
+}
+
+.project h3 {
+  padding: 0px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.project .image {
+  width: 48%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.project .description {
+  width: 43%;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 5%;
+  vertical-align: top;
+}
+
+.project .description p {
+  margin-bottom: 0px;
+}
+
+.project .title {
+  display: flex;
+}
+
+.project a {
+  display: inline-block;
+  padding-left: 5px;
+  padding-top: 12px;
+  color: #f9f9f9;
+}
+
+.project .tech {
+  color: #6c6c6c;
+  padding-top: 0px;
+}
+
+.project .tech p {
+  margin-top: 0px;
+}

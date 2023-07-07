@@ -6,17 +6,18 @@ import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import sky from "../assets/images/sky.png";
 
 import TimelineItem from "../components/TimelineItem";
 
-library.add(faGithub, faLinkedin, faEnvelope);
+library.add(faGithub, faLinkedin, faEnvelope, faArrowRight);
 
 const Home = () => {
   return (
-    <>
+    <div class="home">
       <Image src={sky} class="center" width={400} height={273} />
       <h1>Hi, I'm Nicole.</h1>
       <p>Welcome to this little window into my life.</p>
@@ -62,6 +63,10 @@ const Home = () => {
         extra="Java, C++, Processing"
       />
       <h2>Notable Achievements</h2>
+      <a href="/achievements" class="more-info">
+        <p class="redirect">// &nbsp;Full list of contests and achievements</p>
+      </a>
+
       <TimelineItem
         year="2022"
         title="René Descartes National Scholarship"
@@ -87,11 +92,7 @@ const Home = () => {
         title="Educational Computing Organization of Ontario (ECOO) Computer Science Competition"
         description="Placed 21st in Ontario out of 473 competitors."
       />
-      <p>
-        A full list of my contests and achievements can be found{" "}
-        <Link to="/achievements#"> here</Link>.
-      </p>
-    </>
+    </div>
   );
 };
 

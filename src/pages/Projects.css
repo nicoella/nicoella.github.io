@@ -1,3 +1,15 @@
 .projects h1 {
   padding-top: 70px;
 }
+
+.projects {
+  margin-left: calc(50% - 300px);
+  margin-right: calc(50% - 300px);
+}
+
+@media screen and (max-width: 700px) {
+  .projects {
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+}

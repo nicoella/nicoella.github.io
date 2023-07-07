@@ -1,3 +1,15 @@
+.achievements {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .achievements h1 {
   padding-top: 70px;
+}
+
+@media screen and (max-width: 700px) {
+  .achievements {
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
 }

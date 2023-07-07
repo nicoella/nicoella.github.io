@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./TimelineItem.css";
+import "./TimelineItem.css";
 
 class TimelineItem extends React.Component {
   render() {

@@ -3,7 +3,7 @@ import "./Layout.css";
 
 const Layout = () => {
   return (
-    <>
+    <div class="layout">
       <nav>
         <div class="left">
           <a>
@@ -23,7 +23,7 @@ const Layout = () => {
       </nav>
 
       <Outlet />
-    </>
+    </div>
   );
 };
 
