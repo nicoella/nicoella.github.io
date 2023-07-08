@@ -78,7 +78,7 @@ nav .right a.active:after {
   nav .visible {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 200vh;
     width: 700px;
     position: fixed;
     left: calc(50vw - 350px);
@@ -102,5 +102,13 @@ nav .right a.active:after {
   .wider {
     margin-left: 7vw;
     margin-right: 7vw;
+  }
+}
+
+@media (pointer: none), (pointer: coarse) and (max-width: 1100px) {
+  nav,
+  .wider {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }

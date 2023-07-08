@@ -18,3 +18,10 @@
     margin-right: 12vw;
   }
 }
+
+@media (pointer: none), (pointer: coarse) and (max-width: 1100px) {
+  .projects-full {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}

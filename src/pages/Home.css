@@ -11,12 +11,14 @@
   position: relative;
   margin-top: 40px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .sky img {
   display: block;
   margin: 0 auto;
   width: 649px;
+
   height: 150px;
 }
 
@@ -70,5 +72,12 @@
     margin-left: -15vw;
     width: 130vw;
     height: auto;
+  }
+}
+
+@media (pointer: none), (pointer: coarse) and (max-width: 1100px) {
+  .home {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
