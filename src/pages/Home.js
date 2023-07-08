@@ -25,8 +25,11 @@ const Home = () => {
         <p>
           I'm currently a Computer Science student at the University of
           Waterloo. Sometimes I code in my free time - you can check out some of
-          my projects
-          <Link to="/projects"> here</Link>.
+          my projects{" "}
+          <Link class="link" to="/projects">
+            here
+          </Link>
+          .
         </p>
         <p>
           I also enjoy drawing, reading, crocheting, listening to music,

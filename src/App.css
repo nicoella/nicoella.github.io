@@ -75,4 +75,10 @@ a {
 
 .redirect {
   font-style: italic;
+  transition: color 275ms ease-in-out, padding-left 275ms ease-in-out;
+}
+
+.redirect:hover {
+  color: #d2d2d2;
+  padding-left: 3px;
 }

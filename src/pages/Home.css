@@ -16,6 +16,23 @@
   width: 100%;
 }
 
+.home .link {
+  display: inline-block;
+  color: #d2d2d2;
+}
+
+.home .link:after {
+  display: block;
+  content: "";
+  border-bottom: solid 0.5px #d2d2d2;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.home .link:hover:after {
+  transform: scaleX(1);
+}
+
 .about p {
   margin-bottom: 5px;
 }
@@ -28,6 +45,11 @@
   color: #adadad;
   font-size: 20px;
   padding-right: 5px;
+  transition: color 275ms ease-in-out;
+}
+
+.socials a:hover {
+  color: #d2d2d2;
 }
 
 .home .redirect {
