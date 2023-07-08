@@ -7,13 +7,17 @@
   padding-bottom: 5px;
 }
 
-.center {
-  text-align: center;
+.sky {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.sky img {
   display: block;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 100%;
+  margin: 0 auto;
+  width: 649px;
+  height: 150px;
 }
 
 .home .link {
@@ -60,5 +64,11 @@
   .home {
     margin-left: 12vw;
     margin-right: 12vw;
+  }
+
+  .sky img {
+    margin-left: -15vw;
+    width: 130vw;
+    height: auto;
   }
 }
