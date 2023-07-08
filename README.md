@@ -1,2 +1,2 @@
-### nicoella.github.io
+# nicoella.github.io
 Personal portfolio website https://nicoella.github.io.
