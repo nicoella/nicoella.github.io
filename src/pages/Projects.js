@@ -11,7 +11,7 @@ const Projects = () => {
     <div class="projects">
       <h1>Project Showcase</h1>
       <a href="/projects-full">
-        <p class="intro">// &nbsp;Full projects archive</p>
+        <p class="redirect">// &nbsp;Full projects archive</p>
       </a>
       <Project
         image={require("../assets/images/wizardcats.jpg")}

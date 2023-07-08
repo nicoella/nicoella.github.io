@@ -74,6 +74,7 @@ a {
 }
 
 .redirect {
+  padding-left: 1px;
   font-style: italic;
   transition: color 275ms ease-in-out, padding-left 275ms ease-in-out;
 }
