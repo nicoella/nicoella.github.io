@@ -2,6 +2,7 @@ nav {
   padding-top: 20px;
   margin-left: 30vw;
   margin-right: 30vw;
+  z-index: 3;
 }
 
 .wider {
@@ -18,8 +19,15 @@ a {
   transition: color 0.3s ease;
 }
 
+.bars {
+  color: #cbcbcb;
+  font-size: 12px;
+}
+
 .left {
+  position: relative;
   display: inline-block;
+  z-index: 9999;
 }
 
 .right {
@@ -30,10 +38,45 @@ a {
   padding-left: 15px;
 }
 
+.closed {
+  position: relative;
+  display: none;
+}
+
 @media screen and (max-width: 700px) {
   nav {
     margin-left: 12vw;
     margin-right: 12vw;
+  }
+
+  nav .visible a {
+    padding: 5px;
+  }
+
+  nav .open {
+    display: none;
+  }
+
+  nav .visible {
+    display: inline-block;
+    height: calc(100vh);
+    width: 700px;
+    position: fixed;
+    left: calc(50vw - 350px);
+    top: 0;
+    background-color: #04010a;
+    z-index: 1;
+    text-align: center;
+    padding-top: calc(30vh);
+  }
+
+  nav a {
+    display: block;
+  }
+
+  nav .closed {
+    display: inline-block;
+    z-index: 99999;
   }
 
   .wider {
