@@ -110,5 +110,10 @@ nav .right a.active:after {
   .wider {
     margin-left: 5vw;
     margin-right: 5vw;
+    font-size: 15px;
+  }
+
+  .bars {
+    font-size: 15px;
   }
 }
