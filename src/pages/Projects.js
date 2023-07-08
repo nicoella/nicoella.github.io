@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div class="projects">
       <h1>Project Showcase</h1>
-      <a href="/projects-full">
+      <a href="#/projects-full">
         <p class="redirect">// &nbsp;Full projects archive</p>
       </a>
       <Project

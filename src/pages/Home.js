@@ -74,7 +74,7 @@ const Home = () => {
           extra="Java, C++, Processing"
         />
         <h2>Notable Achievements</h2>
-        <a href="/achievements" class="more-info">
+        <a href="#/achievements" class="more-info">
           <p class="redirect">
             // &nbsp;Full list of contests and achievements
           </p>
