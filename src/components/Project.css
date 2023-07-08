@@ -43,3 +43,32 @@
 .project .tech {
   color: #6c6c6c;
 }
+
+@media screen and (max-width: 700px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project .image {
+    width: 60%;
+  }
+
+  .image {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .project .title {
+    margin: 0 auto;
+  }
+
+  .project .description {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
