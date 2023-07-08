@@ -1,7 +1,7 @@
 {
   "name": "web",
   "version": "0.1.0",
-  "homepage": "https://nicoella.github.io/",
+  "homepage": "/nicoella.github.io/#",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
