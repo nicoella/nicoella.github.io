@@ -17,8 +17,8 @@ library.add(faGithub, faLinkedin, faEnvelope, faArrowRight);
 
 const Home = () => {
   return (
-    <div class="home">
-      <Image src={sky} class="center" width={400} height={273} />
+    <div className="home">
+      <Image src={sky} className="center" width={400} height={273} />
       <div class="about">
         <h1>Hi, I'm Nicole.</h1>
         <p>Welcome to this little window into my life.</p>
@@ -32,7 +32,7 @@ const Home = () => {
           I also enjoy drawing, reading, crocheting, listening to music,
           watching movies and tv shows, and playing video games.
         </p>
-        <div class="socials">
+        <div className="socials">
           <a
             href="https://www.linkedin.com/in/nicole-han-20ab31202/"
             target="_blank"

@@ -16,6 +16,10 @@ const Layout = () => {
       setCurrentPage("home");
     } else if (location.pathname === "/projects") {
       setCurrentPage("projects");
+    } else if (location.pathname === "/achievements") {
+      setCurrentPage("achievements");
+    } else if (location.pathname === "/projects-full") {
+      setCurrentPage("projects-full");
     }
   }, [location]);
 
@@ -37,21 +41,37 @@ const Layout = () => {
   }
 
   return (
-    <div class="layout">
+    <div className="layout">
       <nav className={`${currentPage === "projects" ? "wider" : ""}`}>
-        <div class="left">
-          <a onClick={closeNav}>
-            <Link to="/">Nicole Han</Link>
-          </a>
+        <div className="left">
+          <Link onClick={closeNav} to="/">
+            Nicole Han
+          </Link>
         </div>
-        <div class="right">
+        <div className="right">
           <div className="open" id="navbar">
-            <a onClick={closeNav}>
-              <Link to="/">Home</Link>
-            </a>
-            <a onClick={closeNav}>
-              <Link to="/projects">Projects</Link>
-            </a>
+            <Link
+              className={`${
+                currentPage === "home" || currentPage === "achievements"
+                  ? "active"
+                  : "inactive"
+              }`}
+              onClick={closeNav}
+              to="/"
+            >
+              Home
+            </Link>
+            <Link
+              className={`${
+                currentPage === "projects" || currentPage === "projects-full"
+                  ? "active"
+                  : "inactive"
+              }`}
+              onClick={closeNav}
+              to="/projects"
+            >
+              Projects
+            </Link>
           </div>
           <i className="closed" onClick={change}>
             <FontAwesomeIcon className="bars" icon={["fas", "bars"]} />

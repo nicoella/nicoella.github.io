@@ -66,6 +66,13 @@ p {
   padding-bottom: 2px;
 }
 
+a {
+  color: #f9f9f9;
+  text-decoration: none;
+  padding-top: 2px;
+  font-size: 12px;
+}
+
 .redirect {
   font-style: italic;
 }
