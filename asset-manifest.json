@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/nicoella/nicoella.github.io/static/css/main.256eaddf.css",
-    "main.js": "/nicoella/nicoella.github.io/static/js/main.1cef1b3b.js",
-    "static/js/787.d1d4a2c2.chunk.js": "/nicoella/nicoella.github.io/static/js/787.d1d4a2c2.chunk.js",
-    "static/media/ontrack.png": "/nicoella/nicoella.github.io/static/media/ontrack.baea7f6ce71953311de2.png",
-    "static/media/Spectral-Medium.ttf": "/nicoella/nicoella.github.io/static/media/Spectral-Medium.541f011fa5c5892312d5.ttf",
-    "static/media/Spectral-SemiBold.ttf": "/nicoella/nicoella.github.io/static/media/Spectral-SemiBold.0b678d70bc55d8934092.ttf",
-    "static/media/Spectral-Light.ttf": "/nicoella/nicoella.github.io/static/media/Spectral-Light.cf0847d6be5ff1027f7d.ttf",
-    "static/media/Spectral-ExtraLight.ttf": "/nicoella/nicoella.github.io/static/media/Spectral-ExtraLight.46c0c01bb8b92cac6aae.ttf",
-    "static/media/birthdaybash.png": "/nicoella/nicoella.github.io/static/media/birthdaybash.53101de29833fcb7e023.png",
-    "static/media/pokemon.png": "/nicoella/nicoella.github.io/static/media/pokemon.42c55e844f63eb330b0e.png",
-    "static/media/growthmodel.png": "/nicoella/nicoella.github.io/static/media/growthmodel.c3167568b75343293749.png",
-    "static/media/wizardcats.jpg": "/nicoella/nicoella.github.io/static/media/wizardcats.81d933253074d844c7e7.jpg",
-    "static/media/sky.gif": "/nicoella/nicoella.github.io/static/media/sky.f72545121eb53941a37e.gif",
-    "index.html": "/nicoella/nicoella.github.io/index.html",
-    "main.256eaddf.css.map": "/nicoella/nicoella.github.io/static/css/main.256eaddf.css.map",
-    "main.1cef1b3b.js.map": "/nicoella/nicoella.github.io/static/js/main.1cef1b3b.js.map",
-    "787.d1d4a2c2.chunk.js.map": "/nicoella/nicoella.github.io/static/js/787.d1d4a2c2.chunk.js.map"
+    "main.css": "/static/css/main.339c5d0f.css",
+    "main.js": "/static/js/main.1aa38851.js",
+    "static/js/787.d1d4a2c2.chunk.js": "/static/js/787.d1d4a2c2.chunk.js",
+    "static/media/ontrack.png": "/static/media/ontrack.baea7f6ce71953311de2.png",
+    "static/media/Spectral-Medium.ttf": "/static/media/Spectral-Medium.541f011fa5c5892312d5.ttf",
+    "static/media/Spectral-SemiBold.ttf": "/static/media/Spectral-SemiBold.0b678d70bc55d8934092.ttf",
+    "static/media/Spectral-Light.ttf": "/static/media/Spectral-Light.cf0847d6be5ff1027f7d.ttf",
+    "static/media/Spectral-ExtraLight.ttf": "/static/media/Spectral-ExtraLight.46c0c01bb8b92cac6aae.ttf",
+    "static/media/birthdaybash.png": "/static/media/birthdaybash.53101de29833fcb7e023.png",
+    "static/media/pokemon.png": "/static/media/pokemon.42c55e844f63eb330b0e.png",
+    "static/media/growthmodel.png": "/static/media/growthmodel.c3167568b75343293749.png",
+    "static/media/wizardcats.jpg": "/static/media/wizardcats.81d933253074d844c7e7.jpg",
+    "static/media/sky.gif": "/static/media/sky.f72545121eb53941a37e.gif",
+    "index.html": "/index.html",
+    "main.339c5d0f.css.map": "/static/css/main.339c5d0f.css.map",
+    "main.1aa38851.js.map": "/static/js/main.1aa38851.js.map",
+    "787.d1d4a2c2.chunk.js.map": "/static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.256eaddf.css",
-    "static/js/main.1cef1b3b.js"
+    "static/css/main.339c5d0f.css",
+    "static/js/main.1aa38851.js"
   ]
 }
