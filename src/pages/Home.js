@@ -58,18 +58,19 @@ const Home = () => {
           year="2023"
           title="Software Developer - Miovision"
           link="https://miovision.com/"
-          extra="Angular, SCSS, Cypress, TypeScript, RxJS, NestJS"
+          extra="Angular, TypeScript, RxJS, NestJS, Socket.io, HTML, SCSS, Cypress, "
         />
         <TimelineItem
           year="2022"
           title="Innovation Developer - Royal Bank of Canada"
           link="https://www.rbc.com/"
           description="Created a rewards site for RBC developers which rewards them for contributing to internal GitHub bugs and issues. Worked in weekly Agile sprints."
-          extra="Angular, SCSS, MariaDB, TypeScript"
+          extra="Angular, TypeScript, HTML, SCSS, MariaDB"
         />
         <TimelineItem
           year="2019 - 2022"
           title="Vice President - Mackenzie Computer Programming Team"
+          link="https://mcpt.ca"
           description="Created competitive programming problems for contests and tutored students in competitive and curriculum programming. Managed a team of executives to deliver weekly lessons and monthly programming competitions."
           extra="Java, C++, Processing"
         />

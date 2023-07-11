@@ -86,7 +86,7 @@ const ProjectsFull = () => {
       <TimelineItem
         year="2020"
         title="If Only"
-        github="https://github.com/nicoella/tictactoe"
+        github="https://github.com/nicoella/If-Only"
         description="A short game about the impact of decisions."
         extra="Java"
       />
