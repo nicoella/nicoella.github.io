@@ -48,7 +48,7 @@ const Home = () => {
             <a href="https://github.com/nicoella" target="_blank">
               <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
-            <a href="mailto:nicolehan04@gmail.com" target="_blank">
+            <a href="mailto:n2han@uwaterloo.ca" target="_blank">
               <FontAwesomeIcon icon={["fas", "envelope"]} />
             </a>
           </div>

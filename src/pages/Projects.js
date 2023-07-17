@@ -14,6 +14,14 @@ const Projects = () => {
         <p class="redirect">// &nbsp;Full projects archive</p>
       </a>
       <Project
+        image={require("../assets/images/siteupdatenotifier.png")}
+        title="Site Update Notifier"
+        year="07/2023"
+        github="https://github.com/nicoella/Site-Update-Notifier"
+        description="A bot that stores sites to track in a database, and routinely scans the tracked sites for updates and pushes a notification to the webhook if an update exists."
+        tech="React, Python, Django, MongoDB"
+      />
+      <Project
         image={require("../assets/images/wizardcats.jpg")}
         title="Wizard Cats"
         year="09/2022"

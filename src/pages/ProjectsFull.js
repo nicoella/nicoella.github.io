@@ -13,6 +13,13 @@ const ProjectsFull = () => {
       <p class="intro">This is a chronological list of my projects.</p>
       <TimelineItem
         year="2023"
+        title="Site Update Notifier"
+        github="https://github.com/nicoella/Site-Update-Notifier"
+        description="A bot that stores sites to track in a database, and routinely scans the tracked sites for updates and pushes a notification to the webhook if an update exists."
+        extra="React, Python, Django, MongoDB"
+      />
+      <TimelineItem
+        year="2023"
         title="Portfolio Website"
         github="https://github.com/nicoella/nicoella.github.io"
         description="This portfolio site."
