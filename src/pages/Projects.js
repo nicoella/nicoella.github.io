@@ -18,7 +18,7 @@ const Projects = () => {
         title="Site Update Notifier"
         year="07/2023"
         github="https://github.com/nicoella/Site-Update-Notifier"
-        description="A bot that stores sites to track in a database, and routinely scans the tracked sites for updates and pushes a notification to the webhook if an update exists."
+        description="A bot that stores sites to track in a database, routinely scans the tracked sites for updates, and pushes a notification to the webhook if an update exists."
         tech="React, Python, Django, MongoDB"
       />
       <Project
