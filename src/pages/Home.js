@@ -58,7 +58,7 @@ const Home = () => {
           year="2023"
           title="Software Developer - Miovision"
           link="https://miovision.com/"
-          extra="Angular, TypeScript, RxJS, NestJS, Socket.io, HTML, SCSS, Cypress"
+          extra="Angular, TypeScript, RxJS, NestJS, HTML, SCSS, Cypress"
         />
         <TimelineItem
           year="2022"
