@@ -18,6 +18,7 @@ const Projects = () => {
         title="Site Update Notifier"
         year="07/2023"
         github="https://github.com/nicoella/Site-Update-Notifier"
+        link="https://site-update-notifier-frontend.nicolehan1.repl.co/"
         description="A bot that stores sites to track in a database, routinely scans the tracked sites for updates, and pushes a notification to the webhook if an update exists."
         tech="React, Python, Django, MongoDB"
       />
@@ -26,6 +27,7 @@ const Projects = () => {
         title="Wizard Cats"
         year="09/2022"
         github="https://github.com/nicoella/wizard-cats"
+        link="https://wizard-cats.nicolehan1.repl.co"
         description="An online real-time 1 vs 1 shooter with an algorithm to detect spell drawing. All art is custom drawn."
         tech="Firebase, Phaser, JavaScript, HTML, CSS, Aseprite"
       />
