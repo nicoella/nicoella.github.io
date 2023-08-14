@@ -14,6 +14,14 @@ const Projects = () => {
         <p class="redirect">// &nbsp;Full projects archive</p>
       </a>
       <Project
+        image={require("../assets/images/routeoptimizer.png")}
+        title="Route Optimizer"
+        year="08/2023"
+        github="https://github.com/nicoella/Route-Optimizer"
+        description="Shortest path calculator for multi-location destinations (ex. chain stores) with a modified Held-Karp dynamic programming algorithm (Travelling Salesman Problem)."
+        tech="C++, Boost.Beast, CMake, Vue.js, Google Cloud API"
+      />
+      <Project
         image={require("../assets/images/siteupdatenotifier.png")}
         title="Site Update Notifier"
         year="07/2023"

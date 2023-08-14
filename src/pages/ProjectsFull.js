@@ -13,6 +13,13 @@ const ProjectsFull = () => {
       <p class="intro">This is a chronological list of my projects.</p>
       <TimelineItem
         year="2023"
+        title="Route Optimizer"
+        github="https://github.com/nicoella/Route-Optimizer"
+        description="Shortest path calculator for multi-location destinations (ex. chain stores) with a modified Held-Karp dynamic programming algorithm (Travelling Salesman Problem)."
+        extra="C++, Boost.Beast, CMake, Vue.js, Google Cloud API"
+      />
+      <TimelineItem
+        year="2023"
         title="Site Update Notifier"
         github="https://github.com/nicoella/Site-Update-Notifier"
         link="https://site-update-notifier-frontend.nicolehan1.repl.co/"
