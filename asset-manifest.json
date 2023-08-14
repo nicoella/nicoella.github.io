@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.7a9c9a04.css",
-    "main.js": "/static/js/main.58edcab1.js",
+    "main.js": "/static/js/main.b82fe046.js",
     "static/js/787.d1d4a2c2.chunk.js": "/static/js/787.d1d4a2c2.chunk.js",
     "static/media/ontrack.png": "/static/media/ontrack.baea7f6ce71953311de2.png",
     "static/media/Spectral-Medium.ttf": "/static/media/Spectral-Medium.541f011fa5c5892312d5.ttf",
     "static/media/Spectral-SemiBold.ttf": "/static/media/Spectral-SemiBold.0b678d70bc55d8934092.ttf",
     "static/media/Spectral-Light.ttf": "/static/media/Spectral-Light.cf0847d6be5ff1027f7d.ttf",
+    "static/media/routeoptimizer.png": "/static/media/routeoptimizer.aa665994bcc0dd2cf1c2.png",
     "static/media/Spectral-ExtraLight.ttf": "/static/media/Spectral-ExtraLight.46c0c01bb8b92cac6aae.ttf",
     "static/media/birthdaybash.png": "/static/media/birthdaybash.53101de29833fcb7e023.png",
     "static/media/siteupdatenotifier.png": "/static/media/siteupdatenotifier.2cad583f8f938b014c4b.png",
@@ -16,11 +17,11 @@
     "static/media/sky.gif": "/static/media/sky.f72545121eb53941a37e.gif",
     "index.html": "/index.html",
     "main.7a9c9a04.css.map": "/static/css/main.7a9c9a04.css.map",
-    "main.58edcab1.js.map": "/static/js/main.58edcab1.js.map",
+    "main.b82fe046.js.map": "/static/js/main.b82fe046.js.map",
     "787.d1d4a2c2.chunk.js.map": "/static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a9c9a04.css",
-    "static/js/main.58edcab1.js"
+    "static/js/main.b82fe046.js"
   ]
 }
