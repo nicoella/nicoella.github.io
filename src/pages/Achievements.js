@@ -16,6 +16,11 @@ const Achievements = () => {
         contest results.
       </p>
       <TimelineItem
+        year="2023"
+        title="Hack the 6ix Winner"
+        description="Winner of Best Entrepreneurial Hack and Best Use of Google Cloud out of around 60 teams."
+      />
+      <TimelineItem
         year="2022"
         title="Computer Programming Excellence Graduation Award"
         description="Selected as singular recipient in the graduating class for high achievements in computer programming."

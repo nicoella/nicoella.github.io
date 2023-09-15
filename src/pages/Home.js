@@ -99,6 +99,11 @@ const Home = () => {
           description="Placed within the top 5% of competitors."
         />
         <TimelineItem
+          year="2023"
+          title="Hack the 6ix Winner"
+          description="Winner of Best Entrepreneurial Hack and Best Use of Google Cloud out of around 60 teams."
+        />
+        <TimelineItem
           year="2021"
           title="American Invitational Mathematics Examination"
           description="Qualified to write AIME based on high performances in the American Mathematics Competition."

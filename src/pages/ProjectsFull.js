@@ -13,9 +13,17 @@ const ProjectsFull = () => {
       <p class="intro">This is a chronological list of my projects.</p>
       <TimelineItem
         year="2023"
+        title="Harbour"
+        github="https://github.com/nicoella/harbour"
+        link="https://devpost.com/software/harbour-6olabv"
+        description="A highly-scalable language learning conversational bot with diverse personalities made with LLMs and prompt design and engineering. Offers speaking, listening, reading, translations, and gamification."
+        extra="Next.js, React, TypeScript, OpenAI LangChain, Vercel AI SDK, Google Cloud API"
+      />
+      <TimelineItem
+        year="2023"
         title="Route Optimizer"
         github="https://github.com/nicoella/Route-Optimizer"
-        description="Shortest path calculator for multi-location destinations (ex. chain stores) with a modified Held-Karp dynamic programming algorithm (Travelling Salesman Problem)."
+        description="Shortest path calculator for multi-location destinations (ex. chain stores) with a modified Held-Karp dynamic programming algorithm (Travelling Salesman Problem). Handles up to 20 locations 99.99% faster."
         extra="C++, Boost.Beast, CMake, Vue.js, Google Cloud API"
       />
       <TimelineItem
@@ -45,8 +53,8 @@ const ProjectsFull = () => {
         title="Wizard Cats"
         github="https://github.com/nicoella/wizard-cats"
         link="https://wizard-cats.nicolehan1.repl.co"
-        description="An online real-time 1 vs 1 shooter with an algorithm to detect spell drawing."
-        extra="Firebase, Phaser, JavaScript, HTML, CSS, Aseprite"
+        description="Real-time 1v1 shooter with a custom shape-detection algorithm for shapes drawn by the player’s mouse, support for gameplay across distributed systems, and a database supporting a user login system and game statistics storage."
+        extra="Java Springboot, MySQL, Firebase, Phaser, JavaScript, HTML, CSS, Aseprite"
       />
       <TimelineItem
         year="2022"
