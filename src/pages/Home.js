@@ -55,14 +55,20 @@ const Home = () => {
         </div>
         <h2>Experience</h2>
         <TimelineItem
+          year="2024"
+          title="Software Engineer Intern - Splunk"
+          link="https://www.splunk.com/"
+          extra="React, TypeScript, Redux, Cypress"
+        />
+        <TimelineItem
           year="2023"
-          title="Software Developer - Miovision"
+          title="Software Developer Intern - Miovision"
           link="https://miovision.com/"
           extra="Angular, TypeScript, RxJS, NestJS, HTML, SCSS, Cypress"
         />
         <TimelineItem
           year="2022"
-          title="Innovation Developer - Royal Bank of Canada"
+          title="Innovation Developer Intern - Royal Bank of Canada"
           link="https://www.rbc.com/"
           description="Created a rewards site for RBC developers which rewards them for contributing to internal GitHub bugs and issues. Worked in weekly Agile sprints."
           extra="Angular, TypeScript, HTML, SCSS, MariaDB"
