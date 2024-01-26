@@ -1,0 +1,28 @@
+[
+  {
+    "year": "2024",
+    "title": "Software Engineer Intern - Splunk",
+    "link": "https://www.splunk.com/",
+    "extra": "React, TypeScript, Redux, Cypress"
+  },
+  {
+    "year": "2023",
+    "title": "Software Developer Intern - Miovision",
+    "link": "https://miovision.com/",
+    "extra": "Angular, TypeScript, RxJS, NestJS, HTML, SCSS, Cypress"
+  },
+  {
+    "year": "2022",
+    "title": "Innovation Developer Intern - Royal Bank of Canada",
+    "link": "https://www.rbc.com/",
+    "description": "Created a rewards site for RBC developers which rewards them for contributing to internal GitHub bugs and issues. Worked in weekly Agile sprints.",
+    "extra": "Angular, TypeScript, HTML, SCSS, MariaDB"
+  },
+  {
+    "year": "2019 - 2022",
+    "title": "Vice President - Mackenzie Computer Programming Team",
+    "link": "https://mcpt.ca",
+    "description": "Created competitive programming problems for contests and tutored students in competitive and curriculum programming. Managed a team of executives to deliver weekly lessons and monthly programming competitions.",
+    "extra": "Java, C++, Processing"
+  }
+]

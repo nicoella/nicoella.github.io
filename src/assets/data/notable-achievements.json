@@ -1,0 +1,34 @@
+[
+  {
+    "year": "2022",
+    "title": "René Descartes National Scholarship",
+    "description": "One of approximately 10 recipients chosen based on achievement in academic standing and results in mathematics and computer contests, valued at $20K."
+  },
+  {
+    "year": "2021",
+    "title": "European Girls' Olympiad in Informatics - Bronze Medalist",
+    "link": "https://stats.egoi.org/editions/2021/delegations/CAN/",
+    "description": "One of four participants selected in Canada. Placed 73rd Internationally, received a Bronze Medal."
+  },
+  {
+    "year": "2021",
+    "title": "CEMC Canadian Computing Competition Senior - Honour Roll",
+    "link": "https://www.cemc.uwaterloo.ca/contests/past_contests/2021/2021CCCResults.pdf",
+    "description": "Placed within the top 5% of competitors."
+  },
+  {
+    "year": "2023",
+    "title": "Hack the 6ix Winner",
+    "description": "Winner of Best Entrepreneurial Hack and Best Use of Google Cloud out of around 60 teams."
+  },
+  {
+    "year": "2021",
+    "title": "American Invitational Mathematics Examination",
+    "description": "Qualified to write AIME based on high performances in the American Mathematics Competition."
+  },
+  {
+    "year": "2021",
+    "title": "Educational Computing Organization of Ontario (ECOO) Computer Science Competition",
+    "description": "Placed 21st in Ontario out of 473 competitors."
+  }
+]

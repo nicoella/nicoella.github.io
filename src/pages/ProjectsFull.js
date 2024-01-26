@@ -3,6 +3,8 @@ import "./ProjectsFull.css";
 
 import TimelineItem from "../components/TimelineItem";
 
+import projects from "../assets/data/projects.json";
+
 const ProjectsFull = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -11,130 +13,17 @@ const ProjectsFull = () => {
     <div class="projects-full">
       <h1>Project Archive</h1>
       <p class="intro">This is a chronological list of my projects.</p>
-      <TimelineItem
-        year="2023"
-        title="Harbour"
-        github="https://github.com/nicoella/harbour"
-        link="https://devpost.com/software/harbour-6olabv"
-        description="A highly-scalable language learning conversational bot with diverse personalities made with LLMs and prompt design and engineering. Offers speaking, listening, reading, translations, and gamification."
-        extra="Next.js, React, TypeScript, OpenAI LangChain, Vercel AI SDK, Google Cloud API"
-      />
-      <TimelineItem
-        year="2023"
-        title="Route Optimizer"
-        github="https://github.com/nicoella/Route-Optimizer"
-        description="Shortest path calculator for multi-location destinations (ex. chain stores) with a modified Held-Karp dynamic programming algorithm (Travelling Salesman Problem). Handles up to 20 locations 99.99% faster."
-        extra="C++, Boost.Beast, CMake, Vue.js, Google Cloud API"
-      />
-      <TimelineItem
-        year="2023"
-        title="Site Update Notifier"
-        github="https://github.com/nicoella/Site-Update-Notifier"
-        link="https://site-update-notifier-frontend.nicolehan1.repl.co/"
-        description="A bot that stores sites to track in a database, routinely scans the tracked sites for updates, and pushes a notification to the webhook if an update exists."
-        extra="React, Python, Django, MongoDB"
-      />
-      <TimelineItem
-        year="2023"
-        title="Portfolio Website"
-        github="https://github.com/nicoella/nicoella.github.io"
-        description="This portfolio site."
-        extra="React, JavaScript, HTML, CSS"
-      />
-      <TimelineItem
-        year="2023"
-        title="Tic-Tac-Toe"
-        github="https://github.com/nicoella/tictactoe"
-        description="Tic-Tac-Toe command-line game."
-        extra="Bash"
-      />
-      <TimelineItem
-        year="2022"
-        title="Wizard Cats"
-        github="https://github.com/nicoella/wizard-cats"
-        link="https://wizard-cats.nicolehan1.repl.co"
-        description="Real-time 1v1 shooter with a custom shape-detection algorithm for shapes drawn by the player’s mouse, support for gameplay across distributed systems, and a database supporting a user login system and game statistics storage."
-        extra="Java Springboot, MySQL, Firebase, Phaser, JavaScript, HTML, CSS, Aseprite"
-      />
-      <TimelineItem
-        year="2022"
-        title="Population Growth Model"
-        github="https://github.com/nicoella/Population-Growth-Model"
-        description="A mathematical model to simulate and compare natural and population growth models."
-        extra="Java, Processing"
-      />
-      <TimelineItem
-        year="2021"
-        title="OnTrack"
-        github="https://github.com/nicoella/OnTrack"
-        link="http://ontrackdemo.000webhostapp.com/"
-        description="A website to connect patients with their dietician and help make a healthy eating plan and keep track of goals."
-        extra="HTML, CSS, PHP, MySQL"
-      />
-      <TimelineItem
-        year="2020"
-        title="Pokémon Bot"
-        github="https://github.com/nicoella/Pokemon-Bot"
-        description="A Discord bot to detect any Pokémon that spawns from the Pokémon Discord Bot, Pokécord. Also has a Pokémon name guessing game."
-        extra="JavaScript, Node.js"
-      />
-      <TimelineItem
-        year="2020"
-        title="Urban Sprawl Animation"
-        github="https://github.com/nicoella/My-Creation"
-        description="A short animation on how urban sprawl affects forest animals."
-        extra="Java"
-      />
-      <TimelineItem
-        year="2020"
-        title="Connect 4"
-        github="https://github.com/nicoella/Connect-4"
-        description="A recreation of the game Connect 4."
-        extra="Java"
-      />
-      <TimelineItem
-        year="2020"
-        title="Concentration"
-        github="https://github.com/nicoella/Concentration"
-        description="A recreation of the game Concentration."
-        extra="Java, Processing"
-      />
-      <TimelineItem
-        year="2020"
-        title="Covid Grocery Run"
-        github="https://github.com/nicoella/Covid-Birthday-Bash"
-        link="https://devpost.com/software/grocery-run-covid-19-edition"
-        description="An interactive video game about staying safe during the pandemic at a birthday party."
-        extra="Java"
-      />
-      <TimelineItem
-        year="2020"
-        title="If Only"
-        github="https://github.com/nicoella/If-Only"
-        description="A short game about the impact of decisions."
-        extra="Java"
-      />
-      <TimelineItem
-        year="2019"
-        title="Snake Game"
-        github="https://github.com/nicoella/Snake-Game"
-        description="Recreation of the game Snake."
-        extra="Java, Processing"
-      />
-      <TimelineItem
-        year="2019"
-        title="Processing Projects"
-        github="https://github.com/nicoella/Processing-Projects"
-        description="Processing projects and interactive animations."
-        extra="Java, Processing"
-      />
-      <TimelineItem
-        year="2019"
-        title="Animated Halloween Card"
-        github="https://github.com/nicoella/Halloween-Card"
-        description="An animated Halloween card. Animation components drawn using Processing draw tools."
-        extra="Java, Processing"
-      />
+      {projects.map((project, index) => (
+        <TimelineItem
+          key={index}
+          year={project.year}
+          title={project.title}
+          github={project.github}
+          link={project.link}
+          description={project.description}
+          extra={project.extra}
+        />
+      ))}
     </div>
   );
 };

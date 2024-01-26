@@ -13,6 +13,9 @@ import sky from "../assets/images/sky.gif";
 
 import TimelineItem from "../components/TimelineItem";
 
+import experience from "../assets/data/experience.json";
+import notableAchievements from "../assets/data/notable-achievements.json";
+
 library.add(faGithub, faLinkedin, faEnvelope, faArrowRight);
 
 const Home = () => {
@@ -53,72 +56,21 @@ const Home = () => {
             </a>
           </div>
         </div>
+
         <h2>Experience</h2>
-        <TimelineItem
-          year="2024"
-          title="Software Engineer Intern - Splunk"
-          link="https://www.splunk.com/"
-          extra="React, TypeScript, Redux, Cypress"
-        />
-        <TimelineItem
-          year="2023"
-          title="Software Developer Intern - Miovision"
-          link="https://miovision.com/"
-          extra="Angular, TypeScript, RxJS, NestJS, HTML, SCSS, Cypress"
-        />
-        <TimelineItem
-          year="2022"
-          title="Innovation Developer Intern - Royal Bank of Canada"
-          link="https://www.rbc.com/"
-          description="Created a rewards site for RBC developers which rewards them for contributing to internal GitHub bugs and issues. Worked in weekly Agile sprints."
-          extra="Angular, TypeScript, HTML, SCSS, MariaDB"
-        />
-        <TimelineItem
-          year="2019 - 2022"
-          title="Vice President - Mackenzie Computer Programming Team"
-          link="https://mcpt.ca"
-          description="Created competitive programming problems for contests and tutored students in competitive and curriculum programming. Managed a team of executives to deliver weekly lessons and monthly programming competitions."
-          extra="Java, C++, Processing"
-        />
+        {experience.map((item, index) => (
+          <TimelineItem key={index} {...item} />
+        ))}
+
         <h2>Notable Achievements</h2>
         <a href="#/achievements" class="more-info">
           <p class="redirect">
             // &nbsp;Full list of contests and achievements
           </p>
         </a>
-
-        <TimelineItem
-          year="2022"
-          title="René Descartes National Scholarship"
-          description="One of approximately 10 recipients chosen based on achievement in academic standing and results in mathematics and computer contests, valued at $20K."
-        />
-        <TimelineItem
-          year="2021"
-          title="European Girls' Olympiad in Informatics - Bronze Medalist"
-          link="https://stats.egoi.org/editions/2021/delegations/CAN/"
-          description="One of four participants selected in Canada. Placed 73rd Internationally, recieved a Bronze Medal."
-        />
-        <TimelineItem
-          year="2021"
-          title="CEMC Canadian Computing Competition Senior - Honour Roll"
-          link="https://www.cemc.uwaterloo.ca/contests/past_contests/2021/2021CCCResults.pdf"
-          description="Placed within the top 5% of competitors."
-        />
-        <TimelineItem
-          year="2023"
-          title="Hack the 6ix Winner"
-          description="Winner of Best Entrepreneurial Hack and Best Use of Google Cloud out of around 60 teams."
-        />
-        <TimelineItem
-          year="2021"
-          title="American Invitational Mathematics Examination"
-          description="Qualified to write AIME based on high performances in the American Mathematics Competition."
-        />
-        <TimelineItem
-          year="2021"
-          title="Educational Computing Organization of Ontario (ECOO) Computer Science Competition"
-          description="Placed 21st in Ontario out of 473 competitors."
-        />
+        {notableAchievements.map((item, index) => (
+          <TimelineItem key={index} {...item} />
+        ))}
       </div>
     </>
   );
