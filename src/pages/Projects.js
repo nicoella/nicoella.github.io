@@ -14,6 +14,14 @@ const Projects = () => {
         <p class="redirect">// &nbsp;Full projects archive</p>
       </a>
       <Project
+        image={require("../assets/images/tradingbot.png")}
+        title="News Sentiment Trading Bot"
+        year="05/2024"
+        github="https://github.com/nicoella/news-sentiment-trading-bot"
+        description="A trading bot utilizing sentiment analysis on webcrawled news article to predict stock price movements. Backtested over a 4 year period with a 85.7% win rate."
+        tech="Python, BeautifulSoup, Selenium, FinBERT, Backtrader"
+      />
+      <Project
         image={require("../assets/images/harbour.png")}
         title="Harbour"
         year="08/2023"

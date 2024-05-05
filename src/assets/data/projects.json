@@ -1,5 +1,12 @@
 [
   {
+    "year": "2024",
+    "title": "News Sentiment Trading Bot",
+    "github": "https://github.com/nicoella/news-sentiment-trading-bot",
+    "description": "A trading bot utilizing sentiment analysis on webcrawled news article to predict stock price movements. Backtested over a 4 year period with a 85.7% win rate.",
+    "extra": "Python, BeautifulSoup, Selenium, FinBERT, Backtrader"
+  },
+  {
     "year": "2023",
     "title": "Harbour",
     "github": "https://github.com/nicoella/harbour",
