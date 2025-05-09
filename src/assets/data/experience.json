@@ -1,5 +1,17 @@
 [
   {
+    "year": "2025",
+    "title": "Software Engineer Intern - Databricks",
+    "link": "https://www.databricks.com/",
+    "extra": "Scala, Spark, SQL, GraphQL"
+  },
+  {
+    "year": "2025",
+    "title": "Software Engineer Intern - Stripe",
+    "link": "https://www.stripe.com/",
+    "extra": "Go, gRPC, Kubernetes, Mongo, Claude 3.7"
+  },
+  {
     "year": "2024",
     "title": "Software Engineer Intern - Splunk",
     "link": "https://www.splunk.com/",
