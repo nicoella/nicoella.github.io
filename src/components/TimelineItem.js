@@ -42,8 +42,10 @@ class TimelineItem extends React.Component {
         <div class="description">
           <div class="title">
             <h3>{this.props.title}</h3>
-            {github}
-            {link}
+            <div>
+              {github}
+              {link}
+            </div>
           </div>
           {description}
           {extra}

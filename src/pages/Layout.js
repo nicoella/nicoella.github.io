@@ -46,7 +46,7 @@ const Layout = () => {
       <nav className="content">
         <div className="left">
           <Link onClick={closeNav} to="/">
-            <img src={bunny} style={{ width: '20px', height: 'auto' }} />
+            <img src={bunny} style={{ paddingTop: "2px" }} className="icon" />
           </Link>
         </div>
         <div className="right">
@@ -71,7 +71,7 @@ const Layout = () => {
             </Link>
           </div>
           <i className="closed" onClick={change}>
-            <FontAwesomeIcon className="bars" icon={["fas", "bars"]} />
+            <FontAwesomeIcon className="icon" icon={["fas", "bars"]} />
           </i>
         </div>
       </nav>

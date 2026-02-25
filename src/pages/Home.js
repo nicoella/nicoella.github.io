@@ -30,7 +30,7 @@ const Home = () => {
               <img src={bunnyheader} />
             </div>
           </div>
-          <p>i'm big fan of: minecraft, animal crossing, slime rancher, pikmin bloom, & stardew valley ₍ᐢ.  ̫ .ᐢ₎ </p>
+          <p>i'm big fan of: minecraft, animal crossing, slime rancher, pikmin bloom, & stardew valley <span className="keep-together">₍ᐢ.  ̫ .ᐢ₎</span> </p>
           <div className="socials">
             <a
               href="https://www.linkedin.com/in/nicole-han-20ab31202/"

@@ -24,8 +24,8 @@ const Projects = () => {
         year="08/2023"
         github="https://github.com/nicoella/harbour"
         link="https://devpost.com/software/harbour-6olabv"
-        description="a highly-scalable language learning conversational bot with diverse personalities made with LLMs and prompt design and engineering. offers speaking, listening, reading, translations, and gamification."
-        tech="next.js, react, typeScript, openAI langchain, vercel ai sdk, google cloud api"
+        description="a highly-scalable language learning conversational bot with diverse personalities made with llms and prompt design and engineering. offers speaking, listening, reading, translations, and gamification."
+        tech="next.js, react, typeScript, openai langchain, vercel ai sdk, google cloud api"
       />
       <Project
         image={require("../assets/images/routeoptimizer.png")}
@@ -41,7 +41,7 @@ const Projects = () => {
         year="07/2023"
         github="https://github.com/nicoella/Site-Update-Notifier"
         link="https://site-update-notifier-frontend.nicolehan1.repl.co/"
-        description="A bot that stores sites to track in a database, routinely scans the tracked sites for updates, and pushes a notification to the webhook if an update exists."
+        description="a bot that stores sites to track in a database, routinely scans the tracked sites for updates, and pushes a notification to the webhook if an update exists."
         tech="react, python, django, mongodb"
       />
       <Project
@@ -82,7 +82,7 @@ const Projects = () => {
         title="pokémon discord bot"
         year="05/2020"
         github="https://github.com/nicoella/Pokemon-Bot"
-        description="a discord bot to detect any pokémon that spawns from the pokémon discord bot, Pokécord. also has a pokémon name guessing game."
+        description="a discord bot to detect any pokémon that spawns from the pokémon discord bot, pokécord. also has a pokémon name guessing game."
         tech="javascript, node.js"
       />
     </div>
