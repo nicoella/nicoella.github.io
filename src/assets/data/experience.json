@@ -1,40 +1,50 @@
 [
   {
-    "year": "2025",
-    "title": "Software Engineer Intern - Databricks",
-    "link": "https://www.databricks.com/",
-    "extra": "Scala, Spark, SQL, GraphQL"
+    "year": "2026",
+    "title": "software engineer intern - jane street",
+    "link": "https://www.janestreet.com/",
+    "extra": "incoming this fall!"
+  },
+  {
+    "year": "2026",
+    "title": "software engineer intern - citadel",
+    "link": "https://www.citadel.com/",
+    "extra": "incoming this summer!"
+  },
+  {
+    "year": "2026",
+    "title": "software engineer intern - stripe",
+    "link": "https://www.stripe.com/",
+    "extra": "go, keda, kubernetes, workflow engine"
   },
   {
     "year": "2025",
-    "title": "Software Engineer Intern - Stripe",
+    "title": "software engineer intern - databricks",
+    "link": "https://www.databricks.com/",
+    "extra": "scala, spark, sql, graphql"
+  },
+  {
+    "year": "2025",
+    "title": "software engineer intern - stripe",
     "link": "https://www.stripe.com/",
-    "extra": "Go, gRPC, Kubernetes, Mongo, Claude 3.7"
+    "extra": "go, grpc, kubernetes, mongo, claude 3.7"
   },
   {
     "year": "2024",
-    "title": "Software Engineer Intern - Splunk",
+    "title": "software engineer intern - splunk",
     "link": "https://www.splunk.com/",
-    "extra": "React, TypeScript, Redux, Cypress"
+    "extra": "react, typescript, redux, cypress"
   },
   {
     "year": "2023",
-    "title": "Software Developer Intern - Miovision",
+    "title": "software developer intern - miovision",
     "link": "https://miovision.com/",
-    "extra": "Angular, TypeScript, RxJS, NestJS, HTML, SCSS, Cypress"
+    "extra": "angular, typescript, rxjs, nestjs, html, scss, cypress"
   },
   {
     "year": "2022",
-    "title": "Innovation Developer Intern - Royal Bank of Canada",
+    "title": "innovation developer intern - royal bank of canada",
     "link": "https://www.rbc.com/",
-    "description": "Created a rewards site for RBC developers which rewards them for contributing to internal GitHub bugs and issues. Worked in weekly Agile sprints.",
-    "extra": "Angular, TypeScript, HTML, SCSS, MariaDB"
-  },
-  {
-    "year": "2019 - 2022",
-    "title": "Vice President - Mackenzie Computer Programming Team",
-    "link": "https://mcpt.ca",
-    "description": "Created competitive programming problems for contests and tutored students in competitive and curriculum programming. Managed a team of executives to deliver weekly lessons and monthly programming competitions.",
-    "extra": "Java, C++, Processing"
+    "extra": "angular, typescript, html, scss, mariadb"
   }
 ]

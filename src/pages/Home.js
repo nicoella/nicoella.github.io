@@ -9,11 +9,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-import sky from "../assets/images/sky.gif";
+import bunnyheader from "../assets/images/bunny-header.png";
 
-import TimelineItem from "../components/TimelineItem";
-
-import experience from "../assets/data/experience.json";
 import notableAchievements from "../assets/data/notable-achievements.json";
 
 library.add(faGithub, faLinkedin, faEnvelope, faArrowRight);
@@ -21,26 +18,19 @@ library.add(faGithub, faLinkedin, faEnvelope, faArrowRight);
 const Home = () => {
   return (
     <>
-      <div class="sky">
-        <img src={sky} />
-      </div>
-      <div className="home">
+      
+      <div className="content" style={{ paddingTop: "150px" }}>
         <div class="about">
-          <h1>Hi, I'm Nicole.</h1>
-          <p>Welcome to this little window into my life.</p>
-          <p>
-            I'm currently a Computer Science student at the University of
-            Waterloo. Sometimes I code in my free time - you can check out some
-            of my projects{" "}
-            <Link class="link" to="/projects">
-              here
-            </Link>
-            .
-          </p>
-          <p>
-            I also enjoy drawing, reading, crocheting, listening to music,
-            watching movies and tv shows, and playing video games.
-          </p>
+          <div className="bunny-wrapper">
+            <div className="bunny-text">
+              <h1>nicole han</h1>
+              <p style={{ marginBottom: "0", paddingBottom: "0" }}>hi! i'm a <span className="highlight">computer science</span> student @ the <span className="highlight">university of waterloo</span>, currently a software engineer intern @ <span className="highlight">stripe</span> in seattle!</p>
+            </div>
+            <div class="bunny-img">
+              <img src={bunnyheader} />
+            </div>
+          </div>
+          <p>i'm big fan of: minecraft, animal crossing, slime rancher, pikmin bloom, & stardew valley ₍ᐢ.  ̫ .ᐢ₎ </p>
           <div className="socials">
             <a
               href="https://www.linkedin.com/in/nicole-han-20ab31202/"
@@ -56,21 +46,6 @@ const Home = () => {
             </a>
           </div>
         </div>
-
-        <h2>Experience</h2>
-        {experience.map((item, index) => (
-          <TimelineItem key={index} {...item} />
-        ))}
-
-        <h2>Notable Achievements</h2>
-        <a href="#/achievements" class="more-info">
-          <p class="redirect">
-            // &nbsp;Full list of contests and achievements
-          </p>
-        </a>
-        {notableAchievements.map((item, index) => (
-          <TimelineItem key={index} {...item} />
-        ))}
       </div>
     </>
   );

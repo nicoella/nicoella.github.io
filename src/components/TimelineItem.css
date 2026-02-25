@@ -8,12 +8,8 @@
   padding-right: 10px;
   padding-top: 8px;
   border-radius: 5px;
-  transition: background-color 275ms ease-in-out;
 }
 
-.item:hover {
-  background-color: #171717;
-}
 .item .time p {
   color: #6c6c6c;
 }

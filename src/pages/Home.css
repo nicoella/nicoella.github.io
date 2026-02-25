@@ -1,42 +1,16 @@
-.home {
-  margin-left: 30vw;
-  margin-right: 30vw;
-}
-
-.home h2 {
-  padding-bottom: 5px;
-}
-
-.sky {
+.header {
   position: relative;
   margin-top: 40px;
   margin-bottom: 20px;
   overflow: hidden;
 }
 
-.sky img {
+.header img {
   display: block;
   margin: 0 auto;
-  width: 649px;
+  width: auto;
 
-  height: 150px;
-}
-
-.home .link {
-  display: inline-block;
-  color: #d2d2d2;
-}
-
-.home .link:after {
-  display: block;
-  content: "";
-  border-bottom: solid 0.5px #d2d2d2;
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
-}
-
-.home .link:hover:after {
-  transform: scaleX(1);
+  height: auto;
 }
 
 .about p {
@@ -48,40 +22,79 @@
 }
 
 .socials a {
-  color: #adadad;
+  color: #6c6c6c;
   font-size: 20px;
-  padding-right: 5px;
-  transition: color 275ms ease-in-out;
+  padding-right: 10px;
 }
 
-.socials a:hover {
-  color: #d2d2d2;
+.bunny-wrapper {
+  display: flex;
+  align-items: flex-end; 
+  gap: 30px;
+  width: fit-content;
+  margin-top: 20px;
+  width: 100%;
 }
 
-.home .redirect {
-  padding-bottom: 10px;
+.bunny-text {
+  width: 75%;
+}
+
+.bunny-img {
+  flex-shrink: 0;
+  line-height: 0;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.bunny-img img {
+  width: 150px;
+  height: auto;
+  display: block;
+  max-width: none; 
 }
 
 @media screen and (max-width: 700px) {
-  .home {
-    margin-left: 12vw;
-    margin-right: 12vw;
-  }
-
-  .sky img {
-    margin-left: -15vw;
-    width: 130vw;
-    height: auto;
-  }
 }
 
 @media (pointer: none), (pointer: coarse) and (max-width: 1100px) {
-  .home {
-    margin-left: 5vw;
-    margin-right: 5vw;
-  }
-
   .socials a {
     font-size: 23px;
+  }
+}
+
+@media (max-width: 700px) {
+  .bunny-wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: end; 
+    gap: 0px 20px;
+  }
+
+  .bunny-text {
+    display: contents; 
+  }
+
+  .bunny-text h1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    margin-bottom: 0;
+  }
+
+  .bunny-text p {
+    grid-column: 1 / span 2; 
+    grid-row: 2;
+  }
+
+  .bunny-img {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .bunny-img img {
+    width: 140px; /* Scaling down slightly for smaller screens */
+    margin-bottom: 10px;
   }
 }

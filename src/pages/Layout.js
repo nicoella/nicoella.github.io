@@ -5,6 +5,7 @@ import "./Layout.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
+import bunny from "../assets/images/bunny.png";
 
 library.add(faBars);
 
@@ -18,8 +19,8 @@ const Layout = () => {
       setCurrentPage("projects");
     } else if (location.pathname === "/achievements") {
       setCurrentPage("achievements");
-    } else if (location.pathname === "/projects-full") {
-      setCurrentPage("projects-full");
+    } else if (location.pathname === "/experience") {
+      setCurrentPage("experience");
     }
   }, [location]);
 
@@ -42,35 +43,31 @@ const Layout = () => {
 
   return (
     <div className="layout">
-      <nav className={`${currentPage === "projects" ? "wider" : ""}`}>
+      <nav className="content">
         <div className="left">
           <Link onClick={closeNav} to="/">
-            Nicole Han
+            <img src={bunny} style={{ width: '20px', height: 'auto' }} />
           </Link>
         </div>
         <div className="right">
           <div className="open" id="navbar">
             <Link
-              className={`${
-                currentPage === "home" || currentPage === "achievements"
-                  ? "active"
-                  : "inactive"
-              }`}
               onClick={closeNav}
               to="/"
             >
-              Home
+              about
             </Link>
             <Link
-              className={`${
-                currentPage === "projects" || currentPage === "projects-full"
-                  ? "active"
-                  : "inactive"
-              }`}
+              onClick={closeNav}
+              to="/experience"
+            >
+              experience
+            </Link>
+            <Link
               onClick={closeNav}
               to="/projects"
             >
-              Projects
+              projects
             </Link>
           </div>
           <i className="closed" onClick={change}>
@@ -78,7 +75,6 @@ const Layout = () => {
           </i>
         </div>
       </nav>
-
       <Outlet />
     </div>
   );

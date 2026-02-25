@@ -3,8 +3,7 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Layout from "./pages/Layout";
-import Achievements from "./pages/Achievements";
-import ProjectsFull from "./pages/ProjectsFull";
+import Experience from "./pages/Experience";
 
 function App() {
   return (
@@ -12,9 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="achievements" element={<Achievements />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="projects-full" element={<ProjectsFull />} />
+          <Route path="experience" element={<Experience />} />
         </Route>
       </Routes>
     </HashRouter>
